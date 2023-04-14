@@ -13,3 +13,10 @@
 .list-style{
     list-style-type : none;
 }
+
+.ul-style{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
