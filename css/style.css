@@ -9,3 +9,12 @@
 .nav-bg-color{
     background-color: #e3f2fd;
 }
+
+.li{
+    list-style-type: none;
+    list-style-position: left;
+}
+
+.bt{
+    width: 240px;
+}
