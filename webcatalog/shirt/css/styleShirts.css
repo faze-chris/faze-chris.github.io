@@ -1,0 +1,23 @@
+.tx{
+    color: red;
+    background-size: 80px;
+    text-align: center;
+    display: inline-block;
+    transform: scale(1, 2);
+    transform-origin: 0% 0%;
+    font-family: "bookman";
+}
+
+.card-bg{
+    background-color: transparent;
+    color: white;
+}
+
+.bg-color{
+    background-color: #222;
+    color: white;
+}
+
+.nav-color{
+    color: white;
+}

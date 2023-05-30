@@ -1,0 +1,62 @@
+body {
+  background-color: #222;
+  color: white;
+}
+
+.bt {
+
+  color: white;
+
+}
+
+.card {
+  background-color: transparent;
+}
+
+.tx {
+  color: red;
+  background-size: 80px;
+  text-align: center;
+  display: inline-block;
+  transform: scale(1, 2);
+  transform-origin: 0% 0%;
+  font-family: "bookman";
+}
+
+.nav-color {
+  color: white;
+}
+
+.test {
+  position: relative;
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 400px;
+  width: 360px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #222;
+}
+
+.test:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}

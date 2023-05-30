@@ -1,0 +1,85 @@
+
+body{
+    background-color: black;
+}
+.colL{
+    border: 5px solid white;
+    width: 100px;
+    border-bottom: none;
+    border-top: none;
+}
+.h1-3{
+    background-image: url(../img/2681983-removebg-preview.png);
+     background-size: 80px;
+     color: white;
+     text-align: center;
+     display: inline-block;
+     transform: scale(1, 4);
+     transform-origin: 0% 0%;
+     border-bottom: 1px solid white;
+     font-family: "bookman";
+}
+
+.us2{
+    border-left: none;
+    border-right: none;
+}
+
+.h11 {
+    background-image: url(../img/2681983-removebg-preview.png);
+    background-size: 80px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    transform: scale(1, 4);
+    transform-origin: 0% 50%;
+    border-bottom: 1px solid white;
+    font-family: "bookman";
+}
+
+label {
+    color: white;
+}
+
+.footer-container {
+    border-top: 2px solid white;
+    
+}
+
+.h12 {
+    width: 200px;
+}
+
+p#text {
+    background-size: 90px;
+    display: inline-block;
+    transform: scale(1, 8);
+    font-family: 'bookman';
+    transform-origin: 0% 70%;
+    text-align: center;
+  }
+
+  .p11 {
+    color: red;
+  }
+  
+  .p22 {
+    color: whitesmoke;
+  }
+ 
+  .nikey {
+    width: 250px;
+    height: 150px;
+  }
+
+  .puma {
+    width: 250px;
+    height: 150px;
+  }
+
+  .drmartens {
+    width: 350px;
+  }
+  .point{
+    cursor: pointer;
+}

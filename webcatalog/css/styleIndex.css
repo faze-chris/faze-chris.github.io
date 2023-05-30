@@ -1,0 +1,38 @@
+.bg-color{
+    background-color: white;
+}
+
+.tx{
+    color: red;
+    background-size: 80px;
+    text-align: center;
+    display: inline-block;
+    transform: scale(1, 2);
+    transform-origin: 0% 0%;
+    font-family: "bookman";
+}
+.bt{
+    border: 2px solid white;
+    border-radius: 3px;
+    color: white;
+    background-color: transparent;
+    text-align: center;
+    width: 90px;
+}
+
+.bg-image-start{
+    background-image: url(../media/Naamloos-1.gif); ;
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 320px;
+   
+}
+
+.bt1{
+    border: 2px solid red;
+    border-radius: 3px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    width: 90px;
+}
