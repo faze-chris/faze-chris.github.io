@@ -1,0 +1,116 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 120px 120px 120px 120px;
+    grid-template-rows: repeat(12, 40px);
+    gap: 10px;
+    width: 530px;
+    margin: auto;
+}
+
+.box:hover {
+    border: 1px solid black;
+    background-color: lightgray;
+    border-radius: 5px; 
+}
+
+.button-css{
+    background-color: rgb(253, 48, 48);
+    border-radius: 10px;
+    color: white;
+}
+
+.button-css:hover{
+    border: 1px solid black;
+    background-color: darkred;
+}
+
+.box1{
+    border: 1px solid black;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+.div1 {
+    background-color: rgb(253, 48, 48);
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 9;
+    padding-bottom: 0px;
+}
+.div1 h2{
+    margin-bottom: 50px;
+}
+
+.text{
+    color: white;
+   font-size: 15px ;
+   text-align: center;
+}
+
+.box{
+    border-radius: 10px;
+}
+
+.div5 {
+    grid-row-start: 2;
+    grid-row-end: 11;
+    grid-column-start: 4;
+    grid-column-end: 9;
+    background-color: rgb(253, 48, 48);
+    text-align: center;
+}
+
+.div12 {
+    grid-row-start: 11;
+    grid-row-end: 12;
+    grid-column-start: 1;
+    grid-column-end: 9;
+    background-color:rgb(253, 48, 48);
+    padding: 10px;
+}
+
+.div2,.div3,.div4 {
+    text-align: center;
+    grid-row: 2/5;
+    background-color: white;
+}
+
+.div6,.div7,.div8 {
+    grid-row: 5/8;
+    background-color: white;
+    text-align: center;
+}
+
+.div9,.div10,.div11 {
+    grid-row: 8/11;
+    background-color: white;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+}
+
+ul{
+    float: left;
+}
+
+ol{
+    float: left;
+}
+
+li{
+    float: left;
+}
+
+.text2{
+   text-align: center;
+}
+
+.l1{
+    text-align: center;
+    font-size: 122px;
+    text-decoration: wavy;
+}
