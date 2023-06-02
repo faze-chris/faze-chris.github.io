@@ -1,0 +1,230 @@
+.bg-image{
+  
+    background-image: url(../img/counts-bg.png);
+}
+
+
+.bg-image-start{
+    background-image: url(../img/hero-img.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.tx-color1{
+    color:rgb(116, 46, 223);
+}
+
+.tx-color2{
+    color:rgb(255, 255, 255);
+}
+
+.button-get{
+    background-color:transparent;
+    color:rgb(255, 255, 255);
+    border: 2px solid white; 
+    border-radius: 3px;
+}
+.button-get1{
+    background-color: transparent;
+    
+    color: white;
+    border: 2px solid white; 
+    border-radius: 3px;
+}
+
+.buttons{
+    background-color: transparent;
+    color:rgb(255, 255, 255);
+    border: none;
+}
+
+.ch{
+    height: 300px;
+}
+
+.icon-color1{
+    color: cornflowerblue;
+}
+
+.icon-color2{
+    color: orange;
+}
+
+.icon-color3{
+    color: #EA5573 ;
+}
+
+.icon-color4{
+    color: #DEC20B;
+}
+
+.icon-color5{
+    color: orangered;
+}
+
+.icon-color6{
+    color: turquoise;
+}
+
+.ch{
+    border: none;
+}
+
+.underline{
+    padding: 30px 0 30px;
+  position: relative;
+}
+
+.underline::before{
+    content: "";
+    position: absolute;
+    right: 610px;
+    bottom: 1px;
+    width: 75px;
+    height: 4px;
+
+    background: rgb(116, 46, 223);
+    z-index: -1;
+}
+
+.svg-color{
+    color: rgb(116, 46, 223);
+}
+
+.underline2{
+    padding: 30px 0 30px;
+  position: relative;
+}
+
+.underline2::before{
+    content: "";
+    position: absolute;
+    right: 610px;
+    bottom: 1px;
+    width: 75px;
+    height: 4px;
+
+    color:  black;
+    z-index: -1;
+}
+
+.main-title{
+    color:rgb(255, 255, 255);
+}
+
+.button-paars{ 
+    border: none; color: white; 
+    border-radius: 3px;
+}
+
+.testi-img{
+    height: 100px;
+    width: 100px;
+    border: 6px solid #F8f8f4;
+
+}
+
+.ml{
+    margin-left: 30px;
+}
+
+.quote{
+    color:rgb(116, 46, 223);
+}
+
+.slideshow{
+    color: rgb(116, 46, 223); 
+    height: 50px;
+}
+
+.nav-main-button{
+background-color: rgb(116, 46, 223);
+border: none;
+border-radius: 6px;
+width: 43px;
+height: 28px;
+color: white;
+}
+.nav-button{
+    background-color:transparent;
+    border: none;
+    border-radius: 6px;
+    width: 43px;
+    height: 28px;
+    color: black;
+}
+
+.port-img1{
+    background-image: url(../img/portfolio/portfolio-1.jpg);
+    background-size: cover;
+}
+
+.buy-button{
+    background-color: rgb(116, 46, 223);
+    border: none;
+    border-radius: 6px;
+    width: 150px;
+    height: 50px;
+    color: white;
+}
+
+.buy-card{
+   background-color: rgb(116, 46, 223);
+   color: white;
+  
+   border-radius : 4px; ;
+}
+
+.cash-color{
+    color: rgb(116, 46, 223); 
+}
+
+.number-cards{
+    text-decoration: none;
+    font-size: 30px ;
+    color: rgb(116, 46, 223);   
+}
+
+.month-cards{
+    opacity: 50%;
+}
+
+.small-cols{
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.img1{
+    height: 500px;
+    width:  700px;
+}
+
+.img2{
+    height: 650px;
+    width:  700px;
+}
+
+.size{
+    width: 1400px;
+}
+
+.tx-dec{
+    list-style: none;
+}
+
+.tx-dec-link{
+     text-decoration: none;
+     
+}
+.tx-dec-link:hover{
+    color: black;
+}
+
+.bt-color1{
+    background-color: #9b6dff;
+}
+
+.email-b{
+    border: solid #9b6dff;
+}

@@ -1,0 +1,247 @@
+.wrapper {
+  display: grid;
+  gap: 10px;
+  grid-auto-rows: minmax(60px, auto);
+  grid-template-areas:
+    "hd"
+    "nav"
+    "main"
+    "sd"
+    "ad"
+    "ft"
+  ;
+}
+
+body {
+  background-image: url(../media1/gifbackground.gif);
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+@media (min-width: 500px) {
+  .wrapper {
+    display: grid;
+    gap: 10px;
+    grid-auto-rows: minmax(60px, auto);
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "hd hd"
+      "nav main"
+      "nav main"
+      "sd main"
+      "ad main"
+      "ft ft"
+    ;
+  }
+
+  body {
+    background-image: url(../media1/gifbackground.gif);
+    background-repeat: repeat;
+    background-size: cover;
+
+
+  }
+}
+
+
+@media (max-width: 500px) {
+  .wrapper {
+    display: grid;
+    gap: 10px;
+    grid-auto-rows: minmax(60px, auto);
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "hd nav"
+      "sd main"
+      "ad ft"
+    ;
+    width: 100%;
+    height: 550px;
+  }
+
+  body {
+    background-image: url(../media1/gifbackground.gif);
+    background-repeat: repeat;
+    background-size: cover;
+
+
+  }
+}
+
+@media (min-width: 800px) {
+  .wrapper {
+    display: grid;
+    gap: 10px;
+    grid-auto-rows: minmax(60px, auto);
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas:
+      "hd hd hd"
+      ". . . "
+      "main ad sd"
+      "main ad sd"
+      "main ad sd"
+      "main ad sd";
+
+  }
+
+  .main {
+    height: 300px;
+    width: 300px;
+    border: 3px solid black;
+    margin-left: 120px;
+    background-image: url(/media1/christianscherm.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .button {
+    background-color: rgb(116, 1, 1);
+    border: none;
+    color: white;
+    width: 200px;
+    height: 50px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin-left: 0px;
+    margin-top: 35px;
+    cursor: pointer;
+    gap: 10px;
+  }
+
+  .sidebar {
+    margin-right: 120px;
+  }
+
+  .advert {
+    border: 0px solid orangered;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    grid-area: ad;
+
+  }
+
+  body {
+    background-image: url(../media1/gifbackground.gif);
+    background-repeat: repeat;
+    background-size: cover;
+
+  }
+}
+
+.header {
+  height: 100px;
+
+}
+
+
+.box {
+
+  background-color: rgba(rgb(0, 0, 0));
+  border: 2px solid orangered;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  grid-area: hd;
+}
+
+.nav {
+  grid-area: nav;
+}
+
+.main {
+  grid-area: main;
+}
+
+.sidebar {
+  grid-area: sd;
+}
+
+.advert {
+  grid-area: ad;
+}
+
+.footer {
+  grid-area: ft;
+}
+
+#hello-btn {
+  font-size: 20px;
+  color: rgb(77, 77, 255);
+}
+
+
+
+
+
+/* .button {
+    background-color: rgb(116, 1, 1);
+    border: none;
+    color: white;
+    width: 200px;
+    height: 50px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin-left: 0px;
+    margin-top: 10px;
+    cursor: pointer;
+    gap: 10px;
+  }  */
+
+
+
+/* 
+
+
+
+header {
+    margin-top: auto;
+    background-color: rgb(9, 17, 19);
+    text-align: center;
+    height: 100px;
+    width: 1100px;
+    opacity: 0.7;
+
+
+}
+
+
+.wrapper{
+    display: grid;
+    
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+d
+.link{
+    color: white;
+    background-color: rgb(9, 17, 19);
+    text-align: left;
+    margin-bottom: 0px;
+}
+/*  */

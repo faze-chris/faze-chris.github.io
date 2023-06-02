@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  background-color: black;
+
+}
+
+.center {
+  align-content: center;
+}
+
+.button {
+  background-color: rgb(116, 1, 1);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+
+header {
+  text-align: center;
+  color: white;
+}
+
+article {
+
+  background-color: red;
+  height: 54px;
+  width: 98px;
+  float: right;
+}
+
+div {
+  width: 630px;
+  height: 630px;
+}
+
+.indexkamer {
+  background-image: url("../media/foto/7b5de9c2a0dc7abb302eab2813415f5c.jpg");
+}
+
+.mainbackground {
+  background-image: url(../media/foto/MicrosoftTeams-image\ \(1\).png);
+  background-repeat: no-repeat;
+  margin: 0;
+  background-size: 1920px;
+
+}
+
+.kamer1 {
+  background-image: url("../media/mp4/mainroomkillerkobe-gif-nu-werkt.gif");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 750px;
+}
+
+.dood {
+  object-fit: cover;
+
+  width: 100vw;
+
+  height: 650px;
+
+  position: fixed;
+
+  top: 0;
+
+  left: 0;
+}
+
+div {
+  width: 630px;
+  height: 630px;
+}
+
+header {
+  text-align: center;
+  color: red;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+h2 {
+  text-align: right;
+  font-size: small;
+  color: red;
+  float: left;
+  border: 5px solid brown;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.h {
+  text-align: center;
+  color: red;
+}
+
+.p {
+  text-align: center;
+  color: white;
+}
+
+.k3 {
+  background-image: url(../media/foto/4ba55f19-d7b6-47cc-aa27-861e5e38da08.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+
+.k2 {
+  background-image: url(../media/foto/4ba55f19-d7b6-47cc-aa27-861e5e38da08.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.crash{
+  background-image: url(../media/mp4/helicopter-crash-GIF-DONE.gif);
+
+  background-size: cover;
+
+  height: 100vh;
+
+  padding:0;
+
+  margin:0;
+}
+.win{
+  background-image: url(../media/mp4/MicrosoftTeams-image\ \(10\).png);
+  background-repeat: no-repeat;
+    background-size: cover;
+
+    background-color: black;
+
+    height: 100vh;
+
+    padding:0;
+
+    margin:0;
+}
+
+.k3{
+  background-image:url("../media/mp4/Kamer3.gif");
+  background-size: 1800px;
+}
+
+.p{
+  background-image: url(..//media/mp4/jumpscare.gif);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.escape11{
+  background-image: url(../media/foto/MicrosoftTeams-image\ \(10\).png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}

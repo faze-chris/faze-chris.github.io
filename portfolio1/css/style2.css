@@ -1,0 +1,160 @@
+.backgroundgif {
+  background-color: #080808;
+  
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+
+  /* .wrapper {
+    display: grid;
+    gap: 10px;
+    grid-auto-rows: minmax(60px, auto);
+    grid-template-areas:
+      "hd"
+      "nav"
+      "main"
+      "sd"
+      "ad"
+      "ft"
+    ;
+  } */
+  
+ 
+  
+  /* @media (min-width: 500px) {
+    .wrapper {
+      display: grid;
+      gap: 10px;
+      grid-auto-rows: minmax(60px, auto);
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas:
+        "hd hd"
+        "nav main"
+        "nav main"
+        "sd main"
+        "ad main"
+        "ft ft"
+      ;
+    }
+  
+  
+  
+    } */
+  
+  
+  
+  /* @media (max-width: 500px) {
+    .wrapper {
+      display: grid;
+      gap: 10px;
+      grid-auto-rows: minmax(60px, auto);
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas:
+        "hd nav"
+        "sd main"
+        "ad ft"
+      ;
+      width: 100%;
+      height: 550px;
+    } */
+  
+ 
+  /* } */
+  
+  @media (min-width: 800px) {
+    .wrapper {
+        
+      display: grid;
+      gap: 10px;
+      grid-auto-rows: minmax(60px, auto);
+      grid-template-columns: 1fr 2fr 1fr;
+      grid-template-areas:
+        ". hd ."
+        ". nav . "
+        "main main sd"
+        "main main sd"
+        "main main sd"
+        "main main sd" ;
+        
+  
+    }
+  
+    .buttonnav{
+        background-color: rgb(116, 1, 1);
+        border: none;
+        color: white;
+        width: 200px;
+        height: 50px;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+    }
+  
+    .button {
+        gap: 0px;
+      background-color: rgb(116, 1, 1);
+      border: none;
+      color: white;
+      width: 200px;
+      height: 50px;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 15px;
+      margin-left:30px ;
+      margin-top: 35px;
+      cursor: pointer;
+      
+    }
+    .nav{
+        margin: auto;
+        width: 651px;
+        
+    }
+  
+    .sidebar {
+      margin-right: 120px;
+      display: flex;
+     
+    }
+  
+    .box {
+    
+        background-color: rgba(rgb(0, 0, 0));
+        border: 2px solid orangered;
+        border-radius: 10px;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+   .main{
+    margin-left: 80px;
+   }
+  }
+  .header {
+    grid-area: hd;
+    padding: 10px;
+  }
+  .main {
+    grid-area: main;
+  }
+  .sidebar {
+    grid-area: sd;
+  }
+  .lied{
+    list-style: none;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .nav {
+    grid-area: nav;
+  }
+  ul{
+    margin-right: 22px;
+  }
+  
