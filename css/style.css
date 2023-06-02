@@ -26,8 +26,15 @@
 .tx-color-dot{
     color: #990000 
 }
-/* 
- */
+
+
+a.a-link{
+    color: white;
+    text-decoration: none;
+    
+  }
+
+/*  */
 
 
 
@@ -215,7 +222,7 @@
 
     text-align: center;
 
-    color: #414141;
+   
 
 }
 
@@ -229,6 +236,6 @@
 
     text-align: center;
 
-    color: #414141;
+    
 
 }

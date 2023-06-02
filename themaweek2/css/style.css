@@ -1,0 +1,1744 @@
+@media (min-width: 1800px) {
+    .wrapper {
+        display: grid;
+        gap: 5px;
+        grid-auto-rows: minmax(50px, auto);
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+            "hd hd hd hd"
+            "cb yn yn . "
+            "div1 div2 div3 sd1"
+            "div4 div5 div6 sd1"
+            "div7 div8 div9 sd1"
+            "div10 div11 div12 sd1"
+            "ft ft ft ft"
+            "ft ft ft ft"
+        ;
+        margin-left: 110px;
+        margin-right: 6 0px;
+    }
+
+    .colorbutton{
+        margin-top: 100px;
+        height:30px ;
+        width:80px ;
+    }
+
+    .box1 {
+        border: 4px solid black;
+        border-radius: 5px;
+        text-align: center;
+        color: black;
+        /* font-size: 20px; */
+        font-family: Arial, Helvetica, sans-serif;
+        height: 400px;
+        width: 400px;
+        background-color: black;
+    }
+
+    
+
+    .box {
+        border: 5px solid black;
+        border-radius: 15px;
+        text-align: center;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    .footer{
+        width: 1660px;
+    }
+
+    .sidebar1 {
+        width: 350px;
+        background-image: url(../media/unnamed.gif);
+        background-position: top;
+        background-repeat: repeat;
+        background-size: contain;
+
+    }
+
+    .flip-card {
+        background-color: transparent;
+        perspective: 1000px;
+    }
+
+    .flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .flip-card:focus {
+        outline: 0;
+    }
+
+    .flip-card:hover .flip-card-inner,
+    .flip-card:focus .flip-card-inner {
+        transform: rotateY(180deg);
+    }
+
+    .flip-card-front,
+    .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+
+
+    .flip-card-back {
+        background: linear-gradient(to right, white, gray);
+        color: black;
+        transform: rotateY(180deg);
+        z-index: 1;
+
+    }
+
+
+    .div1,
+    .div2,
+    .div3,
+    .div4,
+    .div5,
+    .div6,
+    .div7,
+    .div8,
+    .div9,
+    .div10,
+    .div11,
+    .div12 {
+        background-color: black;
+    }
+
+    .flip-card-front1 {
+        background-image: url(../media/story\ 1.jpg);
+        background-position: center;
+        background-size: cover;
+        color: black;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p1 {
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .flip-card-front2 {
+        background-image: url(../media/story2.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p2 {
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .flip-card-front3 {
+        background-image: url(../media/story3.jpg);
+        background-position: right;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p3 {
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .flip-card-front4 {
+        background-image: url(../media/story4.jpg);
+        background-position: center;
+        background-size: contain;
+        color: white;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p4 {
+        font-size: 18px;
+    }
+
+    .flip-card-front5 {
+        background-image: url(..//media/story\ 5.jpg);
+        background-position: center;
+        background-size: cover;
+        color: white;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p5 {
+        font-size: 22px;
+    }
+
+    .flip-card-front6 {
+        background-image: url(../media/story6.jpg);
+        background-position: center;
+        background-size: cover;
+        color: white;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p6 {
+        font-size: 20px;
+    }
+
+    .flip-card-front7 {
+        background-image: url(..//media/story7.jpg);
+        background-position: center;
+        background-size: cover;
+        color: white;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p7 {
+        font-size: 19px;
+    }
+
+    .flip-card-front8 {
+        background-image: url(..//media/story8.jpg);
+        background-position: left;
+        background-size: fill;
+        background-repeat: no-repeat;
+        color: white;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p8 {
+        font-size: 17px;
+    }
+
+    .flip-card-front9 {
+        background-image: url(..//media/story9.jpg);
+        background-position: center;
+        background-size: cover;
+        color: white;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p9 {
+        font-size: 23px;
+    }
+
+    .flip-card-front10 {
+        background-image: url(..//media/story10.jpg);
+        background-position: center;
+        background-size: cover;
+        color: white;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p10 {
+        font-size: 27px;
+    }
+
+    .flip-card-front11 {
+        background-image: url(..//media/story11.jpg);
+        background-position: center;
+        background-size: cover;
+        color: white;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p11 {
+        font-size: 20px;
+    }
+
+    .flip-card-front12 {
+        background-image: url(..//media/story12.jpg);
+        background-position: center;
+        background-size: cover;
+        color: white;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p12 {
+        font-size: 20px;
+    }
+
+    a {
+        text-decoration: none;
+        border: 12px solid black;
+        background-color: black;
+        color: white;
+    }
+
+    h1 {
+        font-size: 29px;
+    }
+
+    .h1header {
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 50px;
+    }
+
+    .button {
+        margin-bottom: 5px;
+    }
+
+}
+
+
+@media (max-width: 500px ) {
+    .wrapper {
+        display: grid;
+        gap: 5px;
+        grid-auto-rows: minmax(50px, auto);
+        grid-template-columns: 1fr ;
+        grid-template-areas:
+            "hd"
+            "yn"
+            "cb"
+            "div1"
+            "div2"
+            "div3"
+            "div4"
+            "div5"
+            "div6"
+            "div7"
+            "div8"
+            "div9"
+            "div10"
+            "div11"
+            "div12"
+            "ft"
+            
+        ;
+    }
+
+    .colorbutton{
+        width: 379px;
+        border-radius: 5px;
+    }
+
+    .box1 {
+        border: 4px solid black;
+        border-radius: 5px;
+        text-align: center;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        height: 370px;
+        width: 370px;
+        background-color: black;
+    }
+
+    .h1side{
+        font-size: 27px;
+    }
+
+    .box {
+        border: 5px solid black;
+        border-radius: 15px;
+        text-align: center;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    .flip-card {
+        background-color: transparent;
+        perspective: 1000px;
+    }
+
+    .flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .flip-card:focus {
+        outline: 0;
+    }
+
+    .flip-card:hover .flip-card-inner,
+    .flip-card:focus .flip-card-inner {
+        transform: rotateY(180deg);
+    }
+
+    .flip-card-front,
+    .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+
+
+    .flip-card-back {
+        background: linear-gradient(to right, white, gray);
+        color: black;
+        transform: rotateY(180deg);
+        z-index: 1;
+
+    }
+
+
+    .div1,
+    .div2,
+    .div3,
+    .div4,
+    .div5,
+    .div6,
+    .div7,
+    .div8,
+    .div9,
+    .div10,
+    .div11,
+    .div12 {
+        background-color: black;
+    }
+
+    .flip-card-front1 {
+        background-image: url(../media/story\ 1.jpg);
+        background-position: center;
+        background-size: cover;
+        color: black;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p1 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .flip-card-front2 {
+        background-image: url(../media/story2.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p2 {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .flip-card-front3 {
+        background-image: url(../media/story3.jpg);
+        background-position: right;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p3 {
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .flip-card-front4 {
+        background-image: url(../media/story4.jpg);
+        background-position: center;
+        background-size: contain;
+        color: white;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p4 {
+        font-size: 17px;
+    }
+
+    .flip-card-front5 {
+        background-image: url(..//media/story\ 5.jpg);
+        background-position: center;
+        background-size: cover;
+        color: white;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p5 {
+        font-size: 20px;
+    }
+
+    .flip-card-front6 {
+        background-image: url(../media/story6.jpg);
+        background-position: center;
+        background-size: cover;
+        color: white;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p6 {
+        font-size: 18px;
+    }
+
+    .flip-card-front7 {
+        background-image: url(..//media/story7.jpg);
+        background-position: center;
+        background-size: cover;
+        color: white;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p7 {
+        font-size: 17px;
+    }
+
+    .flip-card-front8 {
+        background-image: url(..//media/story8.jpg);
+        background-position: left;
+        background-size: fill;
+        background-repeat: no-repeat;
+        color: white;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p8 {
+        font-size: 15px;
+    }
+
+    .flip-card-front9 {
+        background-image: url(..//media/story9.jpg);
+        background-position: center;
+        background-size: cover;
+        color: white;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p9 {
+        font-size: 21px;
+    }
+
+    .flip-card-front10 {
+        background-image: url(..//media/story10.jpg);
+        background-position: center;
+        background-size: cover;
+        color: white;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p10 {
+        font-size: 25px;
+    }
+
+    .flip-card-front11 {
+        background-image: url(..//media/story11.jpg);
+        background-position: center;
+        background-size: cover;
+        color: white;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p11 {
+        font-size: 17px;
+    }
+
+    .flip-card-front12 {
+        background-image: url(..//media/story12.jpg);
+        background-position: center;
+        background-size: cover;
+        color: white;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p12 {
+        font-size: 16px;
+    }
+
+    a {
+        text-decoration: none;
+        border: 12px solid black;
+        background-color: black;
+        color: white;
+    }
+
+    
+
+    .h1header {
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 50px;
+    }
+
+    .button {
+        margin-bottom: 5px;
+    }
+}
+@media only screen and (max-width: 1023px) and (min-width: 501px)  {
+    .wrapper {
+        display: grid;
+        gap: 5px;
+        grid-auto-rows: minmax(50px, auto);
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+            "hd hd hd"
+            "cb yn ."
+            "div1 div2 sd1"
+            "div3 div4 sd1"
+            "div5 div6 sd1"
+            "div7 div8 sd1"
+            "div9 div10 sd1"
+            "div11 div12 sd1"
+            "ft ft ft "
+        ;
+        margin-left: 10px;
+        margin-right: 90px;
+    }
+
+
+
+    .colorbutton{
+        margin-top: 65px;
+        height: 50px;
+        width: 100px;
+    }
+
+    .box1 {
+        border: 4px solid black;
+        border-radius: 5px;
+        text-align: center;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        height: 290px;
+        width: 290px;
+        background-color: black;    
+    }
+
+    .h1side {
+        font-size: 17px;
+    }
+
+    .box {
+        border: 5px solid black;
+        border-radius: 15px;
+        text-align: center;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .sidebar1 {
+        width: 200px;
+        background-image: url(..//media/unnamed.gif);
+        background-position: top;
+        background-repeat: repeat;
+        background-size: contain;
+
+    }
+
+    .flip-card {
+        background-color: transparent;
+        perspective: 1000px;
+    }
+
+    .flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .flip-card:focus {
+        outline: 0;
+    }
+
+    .flip-card:hover .flip-card-inner,
+    .flip-card:focus .flip-card-inner {
+        transform: rotateY(180deg);
+    }
+
+    .flip-card-front,
+    .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .flip-card-back {
+        background: linear-gradient(to right, white, gray);
+        color: black;
+        transform: rotateY(180deg);
+        z-index: 1;
+
+    }
+
+    .div1,
+    .div2,
+    .div3,
+    .div4,
+    .div5,
+    .div6,
+    .div7,
+    .div8,
+    .div9,
+    .div10,
+    .div11,
+    .div12 {
+        background-color: black;
+    }
+
+    .flip-card-front1 {
+        background-image: url(../media/story\ 1.jpg);
+        background-position: center;
+        background-size: cover;
+        color: black;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p1 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .flip-card-front2 {
+        background-image: url(../media/story2.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p2 {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .flip-card-front3 {
+        background-image: url(../media/story3.jpg);
+        background-position: right;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p3 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .flip-card-front4 {
+        background-image: url(../media/story4.jpg);
+        background-position: center;
+        background-size: contain;
+        color: white;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p4 {
+        font-size: 13px;
+    }
+
+    .flip-card-front5 {
+        background-image: url(..//media/story\ 5.jpg);
+        background-position: center;
+        background-size: cover;
+        color: white;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p5 {
+        font-size: 16px;
+    }
+
+    .flip-card-front6 {
+        background-image: url(../media/story6.jpg);
+        background-position: center;
+        background-size: cover;
+        color: white;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p6 {
+        font-size: 15px;
+    }
+
+    .flip-card-front7 {
+        background-image: url(..//media/story7.jpg);
+        background-position: center;
+        background-size: cover;
+        color: white;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p7 {
+        font-size: 14px;
+    }
+
+    .flip-card-front8 {
+        background-image: url(..//media/story8.jpg);
+        background-position: left;
+        background-size: fill;
+        background-repeat: no-repeat;
+        color: white;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p8 {
+        font-size: 13px;
+    }
+
+    .flip-card-front9 {
+        background-image: url(..//media/story9.jpg);
+        background-position: center;
+        background-size: cover;
+        color: white;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p9 {
+        font-size: 18px;
+    }
+
+    .flip-card-front10 {
+        background-image: url(..//media/story10.jpg);
+        background-position: center;
+        background-size: cover;
+        color: white;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p10 {
+        font-size: 17px;
+    }
+
+    .flip-card-front11 {
+        background-image: url(..//media/story11.jpg);
+        background-position: center;
+        background-size: cover;
+        color: white;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p11 {
+        font-size: 14px;
+    }
+
+    .flip-card-front12 {
+        background-image: url(..//media/story12.jpg);
+        background-position: center;
+        background-size: cover;
+        color: white;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p12 {
+        font-size: 11   px;
+    }
+
+    a {
+        text-decoration: none;
+        border: 12px solid black;
+        background-color: black;
+        color: white;
+    }
+
+    h1 {
+        font-size: 29px;
+    }
+
+    .h1header {
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 50px;
+    }
+
+    .button {
+        margin-bottom: 5px;
+    }
+}@media only screen and (max-width: 1439px) and (min-width: 1024px)  {
+    .wrapper {
+    display: grid;
+    gap: 5px;
+    grid-auto-rows: minmax(50px, auto);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "hd hd hd hd"
+        "cb yn yn . "
+        "div1 div2 div3 sd1"
+        "div4 div5 div6 sd1"
+        "div7 div8 div9 sd1"
+        "div10 div11 div12 sd1"
+        "ft ft ft ft "
+    ;
+    margin-left: 10px;
+    margin-right: 500px;
+}
+
+.colorbutton{
+    margin-top: 90px;
+    height: 27px;
+    width: 100px;
+}
+
+.box1 {
+    border: 4px solid black;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 250px;
+    width: 250px;
+    background-color: black;    
+}
+
+.h1side {
+    font-size: 18px;
+}
+
+.box {
+    border: 5px solid black;
+    border-radius: 15px;
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar1 {
+    width: 200px;
+    background-image: url(..//media/unnamed.gif);
+    background-position: top;
+    background-repeat: repeat;
+    background-size: contain;
+
+}
+
+.flip-card {
+    background-color: transparent;
+    perspective: 1000px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:focus {
+    outline: 0;
+}
+
+.flip-card:hover .flip-card-inner,
+.flip-card:focus .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.flip-card-back {
+    background: linear-gradient(to right, white, gray);
+    color: black;
+    transform: rotateY(180deg);
+    z-index: 1;
+
+}
+
+.div1,
+.div2,
+.div3,
+.div4,
+.div5,
+.div6,
+.div7,
+.div8,
+.div9,
+.div10,
+.div11,
+.div12 {
+    background-color: black;
+}
+
+.flip-card-front1 {
+    background-image: url(../media/story\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+    color: black;
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.p1 {
+    font-size: 12px;
+    text-align: center;
+}
+
+.flip-card-front2 {
+    background-image: url(../media/story2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.p2 {
+    font-size: 11px;
+    text-align: center;
+}
+
+.flip-card-front3 {
+    background-image: url(../media/story3.jpg);
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.p3 {
+    font-size: 13px;
+    text-align: center;
+}
+
+.flip-card-front4 {
+    background-image: url(../media/story4.jpg);
+    background-position: center;
+    background-size: contain;
+    color: white;
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.p4 {
+    font-size: 11px;
+}
+
+.flip-card-front5 {
+    background-image: url(..//media/story\ 5.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.p5 {
+    font-size: 14px;
+}
+
+.flip-card-front6 {
+    background-image: url(../media/story6.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.p6 {
+    font-size: 12px;
+}
+
+.flip-card-front7 {
+    background-image: url(..//media/story7.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.p7 {
+    font-size: 12px;
+}
+
+.flip-card-front8 {
+    background-image: url(..//media/story8.jpg);
+    background-position: left;
+    background-size: fill;
+    background-repeat: no-repeat;
+    color: white;
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.p8 {
+    font-size: 11px;
+}
+
+.flip-card-front9 {
+    background-image: url(..//media/story9.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.p9 {
+    font-size: 14px;
+}
+
+.flip-card-front10 {
+    background-image: url(..//media/story10.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.p10 {
+    font-size: 16px;
+}
+
+.flip-card-front11 {
+    background-image: url(..//media/story11.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.p11 {
+    font-size: 12px;
+}
+
+.flip-card-front12 {
+    background-image: url(..//media/story12.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.p12 {
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    border: 5px solid black;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-size: 29px;
+}
+
+.h1header {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+.button {
+    margin-bottom: 5px;
+}
+}
+
+@media only screen and (max-width: 1800px) and (min-width: 1440px)  {
+    .wrapper {
+        display: grid;
+        gap: 5px;
+        grid-auto-rows: minmax(50px, auto);
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+            "hd hd hd hd"
+            "cb yn yn . "
+            "div1 div2 div3 sd1"
+            "div4 div5 div6 sd1"
+            "div7 div8 div9 sd1"
+            "div10 div11 div12 sd1"
+            "ft ft ft ft"
+        ;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .colorbutton{
+        margin-top: 90px    ;
+        height: 29px ;
+        width: 100px;
+    }
+
+    .box1 {
+        border: 4px solid black;
+        border-radius: 5px;
+        text-align: center;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        height: 290px;
+        width: 290px;
+        background-color: black;    
+    }
+
+    .h1side {
+        font-size: 17px;
+    }
+
+    .box {
+        border: 5px solid black;
+        border-radius: 15px;
+        text-align: center;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .sidebar1 {
+        width: 200px;
+        background-image: url(..//media/unnamed.gif);
+        background-position: top;
+        background-repeat: repeat;
+        background-size: contain;
+
+    }
+
+    .flip-card {
+        background-color: transparent;
+        perspective: 1000px;
+    }
+
+    .flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .flip-card:focus {
+        outline: 0;
+    }
+
+    .flip-card:hover .flip-card-inner,
+    .flip-card:focus .flip-card-inner {
+        transform: rotateY(180deg);
+    }
+
+    .flip-card-front,
+    .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .flip-card-back {
+        background: linear-gradient(to right, white, gray);
+        color: black;
+        transform: rotateY(180deg);
+        z-index: 1;
+
+    }
+
+    .div1,
+    .div2,
+    .div3,
+    .div4,
+    .div5,
+    .div6,
+    .div7,
+    .div8,
+    .div9,
+    .div10,
+    .div11,
+    .div12 {
+        background-color: black;
+    }
+
+    .flip-card-front1 {
+        background-image: url(../media/story\ 1.jpg);
+        background-position: center;
+        background-size: cover;
+        color: black;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p1 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .flip-card-front2 {
+        background-image: url(../media/story2.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p2 {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .flip-card-front3 {
+        background-image: url(../media/story3.jpg);
+        background-position: right;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p3 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .flip-card-front4 {
+        background-image: url(../media/story4.jpg);
+        background-position: center;
+        background-size: contain;
+        color: white;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p4 {
+        font-size: 13px;
+    }
+
+    .flip-card-front5 {
+        background-image: url(..//media/story\ 5.jpg);
+        background-position: center;
+        background-size: cover;
+        color: white;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p5 {
+        font-size: 16px;
+    }
+
+    .flip-card-front6 {
+        background-image: url(../media/story6.jpg);
+        background-position: center;
+        background-size: cover;
+        color: white;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p6 {
+        font-size: 15px;
+    }
+
+    .flip-card-front7 {
+        background-image: url(..//media/story7.jpg);
+        background-position: center;
+        background-size: cover;
+        color: white;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p7 {
+        font-size: 14px;
+    }
+
+    .flip-card-front8 {
+        background-image: url(..//media/story8.jpg);
+        background-position: left;
+        background-size: fill;
+        background-repeat: no-repeat;
+        color: white;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p8 {
+        font-size: 13px;
+    }
+
+    .flip-card-front9 {
+        background-image: url(..//media/story9.jpg);
+        background-position: center;
+        background-size: cover;
+        color: white;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p9 {
+        font-size: 18px;
+    }
+
+    .flip-card-front10 {
+        background-image: url(..//media/story10.jpg);
+        background-position: center;
+        background-size: cover;
+        color: white;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p10 {
+        font-size: 17px;
+    }
+
+    .flip-card-front11 {
+        background-image: url(..//media/story11.jpg);
+        background-position: center;
+        background-size: cover;
+        color: white;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p11 {
+        font-size: 14px;
+    }
+
+    .flip-card-front12 {
+        background-image: url(..//media/story12.jpg);
+        background-position: center;
+        background-size: cover;
+        color: white;
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .p12 {
+        font-size: 11   px;
+    }
+
+    a {
+        text-decoration: none;
+        border: 12px solid black;
+        background-color: black;
+        color: white;
+    }
+
+    h1 {
+        font-size: 29px;
+    }
+
+    .h1header {
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 50px;
+    }
+
+    .button {
+        margin-bottom: 5px;
+    }
+}
+
+.yn{
+    grid-area: yn;
+    text-align: center;
+}
+
+.colorbutton{
+    grid-area: cb;
+}
+
+.header {
+    grid-area: hd;
+    border: 0px;
+}
+
+.div1 {
+    grid-area: div1;
+}
+
+.div2 {
+    grid-area: div2;
+}
+
+.div3 {
+    grid-area: div3;
+}
+
+.div4 {
+    grid-area: div4;
+}
+
+.div5 {
+    grid-area: div5;
+}
+
+.div6 {
+    grid-area: div6;
+}
+
+.div7 {
+    grid-area: div7;
+}
+
+.div8 {
+    grid-area: div8;
+}
+
+.div9 {
+    grid-area: div9;
+}
+
+.div10 {
+    grid-area: div10;
+}
+
+.div11 {
+    grid-area: div11;
+}
+
+.div12 {
+    grid-area: div12;
+}
+
+.sidebar1 {
+    grid-area: sd1;
+}
+
+.sidebar2 {
+    grid-area: sd2;
+}
+
+.footer {
+    grid-area: ft;
+}

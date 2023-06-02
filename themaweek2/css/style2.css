@@ -1,0 +1,70 @@
+body {
+    background-color: cornflowerblue;
+}
+
+.wrapper {
+    display: grid;
+    gap: 10px;
+    grid-auto-rows: minmax(50px, auto);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        ". hd hd ."
+        ". . . ."
+        "div main main main "
+        ". maing maing ."
+        ". maing maing ."
+        ". maing maing ."
+        ". maing maing ."
+    ;
+
+}
+
+.box1 {
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+    text-align: left;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+
+}
+
+.box2 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150px;
+}
+
+.header {
+    grid-area: hd;
+}
+
+.main {
+    grid-area: main;
+    margin-right: 50px;
+}
+
+.gif {
+    grid-area: maing;
+    background-image: url(../media/thats-my-bad-sorry-about-that.gif);
+    height: 247px;
+    background-position: center;
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+
+.div {
+    grid-area: div;
+    text-align: right;
+    margin-right: 60px;
+}
+
+.sadface {
+    font-size: 180px;
+
+}
+
