@@ -20,7 +20,7 @@
 }
 
 .bg-color{
-    background-color: #990000;
+    background-color: #003972;
 }
 
 .tx-color-dot{
@@ -34,10 +34,41 @@ a.a-link{
     
   }
 
+  .list-style{
+    list-style-type : none;
+}
+
+.ul-style{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.bg-color-procedure{
+    background-color: #003972;
+    border-radius: 15px;
+}
+
+.underline{
+    border-bottom: red 5px solid;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*  */
-
-
-
 .container1 .card1 .icon1 {
 
     position: absolute;
