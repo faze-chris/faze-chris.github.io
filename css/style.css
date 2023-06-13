@@ -1,61 +1,65 @@
-.main-bg{
+.main-bg {
     background-color: #222;
 }
 
-.tx-color{
+.tx-color {
     color: white;
 }
 
-.nav-bg-color{
+.nav-bg-color {
     background-color: #e3f2fd;
 }
 
-.li{
+.li {
     list-style-type: none;
     list-style-position: left;
 }
 
-.bt{
+.bt {
     width: 240px;
 }
 
-.bg-color{
+.bg-color {
     background-color: #003972;
 }
 
-.tx-color-dot{
-    color: #990000 
+.tx-color-dot {
+    color: #990000
 }
 
 
-a.a-link{
+a.a-link {
     color: white;
     text-decoration: none;
-    
-  }
 
-  .list-style{
-    list-style-type : none;
 }
 
-.ul-style{
+.list-style {
+    list-style-type: none;
+}
+
+.ul-style {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    
+
 }
 
-.bg-color-procedure{
+.bg-color-procedure {
     background-color: #003972;
     border-radius: 15px;
 }
 
-.underline{
+.underline {
     border-bottom: red 5px solid;
     display: inline-block;
     margin-top: 20px;
 }
 
+.img-1 {
+    width: 820px;
+    height: 610px;
+}
 
 
 
@@ -145,7 +149,7 @@ a.a-link{
 
 }
 
-.container1 .card1  .fa {
+.container1 .card1 .fa {
 
     position: absolute;
 
@@ -189,7 +193,7 @@ a.a-link{
 
 }
 
-.container1 .card1:hover .slide.slide1{
+.container1 .card1:hover .slide.slide1 {
 
     transform: translateY(0px);
 
@@ -213,17 +217,17 @@ a.a-link{
 
     transform: translateY(-100px);
 
-    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
 
 }
 
-.container1 .card1:hover .slide.slide2{
+.container1 .card1:hover .slide.slide2 {
 
     transform: translateY(0);
 
 }
 
-.container1 .card1 .slide.slide2::after{
+.container1 .card1 .slide.slide2::after {
 
     content: "";
 
@@ -253,7 +257,7 @@ a.a-link{
 
     text-align: center;
 
-   
+
 
 }
 
@@ -267,6 +271,6 @@ a.a-link{
 
     text-align: center;
 
-    
+
 
 }
