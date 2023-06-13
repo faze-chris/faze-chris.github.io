@@ -182,6 +182,65 @@ a.a-link {
     background-size: cover;
 
 }
+/* 9 */
+.container1 .card1 .icon9 {
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    height: 100%;
+
+    background-image: url(../media/home_page/1_6L54YRfOB2iIAXB91d2Eqg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+/* 10 */
+.container1 .card1 .icon10 {
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    height: 100%;
+
+    background-image: url(../media/home_page/boter\ kaas\ en\ eireren.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+/* 11 */
+.container1 .card1 .icon11 {
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    height: 100%;
+
+    background-image: url(../media/home_page/escape\ room.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
 
 .container1 .card1 .fa {
 
