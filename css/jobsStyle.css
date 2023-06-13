@@ -20,3 +20,14 @@ body{
 .font{
     font-size: xx-large;
 }
+
+.underline {
+    border-bottom: red 5px solid;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.bg-color-procedure1 {
+    background-color: #003972;
+    border-radius: 15px;
+}
