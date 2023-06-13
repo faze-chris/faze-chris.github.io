@@ -1,20 +1,24 @@
-.main-bg{
+.main-bg {
     background-color: #222;
 }
 
-.tx-color{
+.tx-color {
     color: white;
 }
 
-.nav-bg-color{
+.nav-bg-color {
     background-color: #e3f2fd;
 }
 
-a.a-link{
+a.a-link {
     color: white;
     text-decoration: none;
-    
-  }
+
+}
+
+.bt-align {
+    margin: auto;
+}
 
 /*  */
 
@@ -38,6 +42,7 @@ a.a-link{
     background-size: cover;
 
 }
+
 /* 2 */
 .container1 .card1 .icon2 {
 
@@ -57,6 +62,7 @@ a.a-link{
     background-size: cover;
 
 }
+
 /* 3 */
 .container1 .card1 .icon3 {
 
@@ -76,6 +82,7 @@ a.a-link{
     background-size: cover;
 
 }
+
 /* 4 */
 .container1 .card1 .icon4 {
 
@@ -95,6 +102,7 @@ a.a-link{
     background-size: cover;
 
 }
+
 /* 5 */
 .container1 .card1 .icon5 {
 
@@ -114,6 +122,7 @@ a.a-link{
     background-size: cover;
 
 }
+
 /* 6 */
 .container1 .card1 .icon6 {
 
@@ -133,6 +142,7 @@ a.a-link{
     background-size: cover;
 
 }
+
 /* 7 */
 .container1 .card1 .icon7 {
 
@@ -152,6 +162,7 @@ a.a-link{
     background-size: cover;
 
 }
+
 /* 8 */
 .container1 .card1 .icon8 {
 
@@ -172,7 +183,7 @@ a.a-link{
 
 }
 
-.container1 .card1  .fa {
+.container1 .card1 .fa {
 
     position: absolute;
 
@@ -216,7 +227,7 @@ a.a-link{
 
 }
 
-.container1 .card1:hover .slide.slide1{
+.container1 .card1:hover .slide.slide1 {
 
     transform: translateY(0px);
 
@@ -240,17 +251,17 @@ a.a-link{
 
     transform: translateY(-100px);
 
-    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
 
 }
 
-.container1 .card1:hover .slide.slide2{
+.container1 .card1:hover .slide.slide2 {
 
     transform: translateY(0);
 
 }
 
-.container1 .card1 .slide.slide2::after{
+.container1 .card1 .slide.slide2::after {
 
     content: "";
 
@@ -280,7 +291,7 @@ a.a-link{
 
     text-align: center;
 
-   
+
 
 }
 
@@ -294,6 +305,6 @@ a.a-link{
 
     text-align: center;
 
-    
+
 
 }
