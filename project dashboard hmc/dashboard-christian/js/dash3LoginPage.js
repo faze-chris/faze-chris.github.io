@@ -62,7 +62,7 @@ const adminAccount = {
       if (userName === account.userName && password === account.password) {
         loginSuccessful = true;
         alert("Inloggen succesvol!");
-        document.location.href = "/dashboard-christian/dashboard-christian.html"; // ik stuur het door naar mijn dashboard pagina.
+        document.location.href = "../dashboard-christian.html"; // ik stuur het door naar mijn dashboard pagina.
       }
     });
   
