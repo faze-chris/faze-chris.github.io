@@ -7,7 +7,7 @@
 }
 
 .nav-bg-color {
-    background-color: #A7171A ;
+    background-color: #A7171A;
     color: white;
 }
 
@@ -21,7 +21,7 @@
 }
 
 .bg-color {
-    background-color: #222  ;
+    background-color: #222;
 }
 
 .tx-color-dot {
@@ -62,7 +62,7 @@ a.a-link {
     height: 610px;
 }
 
-.icons1  {
+.icons1 {
     display: inline-block;
     color: white;
     text-align: center;
@@ -86,22 +86,37 @@ a.a-link {
     transform: translateY(-5px);
 }
 
-.icons a{
+.icons a {
     display: inline-block;
     color: white;
     text-align: center;
     transition: transform 0.5s;
 }
 
-.icons a:hover{
+.icons a:hover {
     color: gray;
     transform: translateY(-5px);
 }
 
-.hw{
+.hw {
     height: 400px;
     width: auto;
 }
+
+/* CSS animation for the transition effect */
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  /* Apply the animation to the element */
+  .fade-in {
+    animation: fade-in 1s ease-in;
+  }
 
 /*  */
 
@@ -208,6 +223,7 @@ a.a-link {
     background-position: center;
     background-size: cover;
 }
+
 /* 9 */
 .container1 .card1 .icon9 {
     position: absolute;
@@ -303,7 +319,7 @@ a.a-link {
     left: 50%;
     left: 50%;
     transform: translateX(-50%);
-    background: #2c73df;
+    background: #A7171A;
 }
 
 .container1 .card1 .slide.slide2 .content p {
