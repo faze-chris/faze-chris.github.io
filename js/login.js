@@ -6,7 +6,7 @@ const adminAccount = {
     password: "Admin123"
   };
   
-  let userAccounts = []; // dit is een leege array om userAccounts op te slaan.
+  let userAccounts = [adminAccount]; // dit is een leege array om userAccounts op te slaan.
   
   // hier controleer mijn code of er userAccounts in de localStorage zijn opgeslagen.
   const userAccountString = localStorage.getItem('userAccounts');
