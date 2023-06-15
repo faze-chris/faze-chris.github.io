@@ -1,0 +1,27 @@
+body{
+    background-color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.l1{
+    height:500px;
+    width:600px;
+}
+
+
+
+
+
+/* contact*/
+
+.icons a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    transition: transform 0.5s;
+}
+
+.icons a:hover{
+    color: #000000;
+    transform: translateY(-5px);
+}

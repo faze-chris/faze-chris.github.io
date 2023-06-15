@@ -1,0 +1,58 @@
+
+
+
+
+/* Hussam- dashboard section */
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+
+.dashboard2-login-body {
+    background-color: #222;
+}
+
+body {
+    background-color: #eee;
+}
+
+#side_nav {
+    background-color: #222;
+    min-width: 250px;
+    max-width: 250px;
+}
+
+.content {
+    min-height: 100vh;
+    width: 100%;
+}
+
+hr.h-color{
+    background-color: #eee;
+    height: 2px;
+}
+
+.dashboard-2-red {
+    border: 5px solid red;
+}
+
+.dashboard-2-orange {
+    border: 5px solid orange;
+}
+
+.dashboard-2-none {
+    border: 5px solid green;
+}
+
+.accountPic {
+    border: 2px solid white;
+    border-radius: 22px;
+    margin-left: 20px;
+}
+
+
+/* End Hussam- dashboard section */

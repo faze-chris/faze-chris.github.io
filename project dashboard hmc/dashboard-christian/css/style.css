@@ -1,0 +1,31 @@
+.bg-color-dash3 {
+    background-color: #222;
+}
+
+.nav-color,
+.tx {
+    color: white;
+}
+
+.bg-profile {
+    background-color: #222;
+}
+
+.icons a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    transition: transform 0.5s;
+}
+
+.icons a:hover {
+    color: gray;
+    transform: translateY(-5px);
+}
+
+.im-l {
+    background-image: url(/img/team/MicrosoftTeams-image\ 5.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}

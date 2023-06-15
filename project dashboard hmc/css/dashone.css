@@ -1,0 +1,18 @@
+
+/*------Start dashboard-1-----*/
+.error{
+    border: 2px solid red;
+}
+.desactive{
+    display:none ;
+}
+
+.active{
+    width: 60%;
+}
+
+.password {
+    cursor: pointer;
+}
+
+/*------End dashboard-1-----*/
