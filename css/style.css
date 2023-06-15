@@ -1,5 +1,5 @@
 .main-bg {
-    background-color: #222;
+    background-color: black;
 }
 
 .tx-color {
@@ -7,7 +7,8 @@
 }
 
 .nav-bg-color {
-    background-color: #e3f2fd;
+    background-color: #A7171A ;
+    color: white;
 }
 
 .li {
@@ -20,7 +21,7 @@
 }
 
 .bg-color {
-    background-color: #003972;
+    background-color: #222  ;
 }
 
 .tx-color-dot {
@@ -46,7 +47,7 @@ a.a-link {
 }
 
 .bg-color-procedure {
-    background-color: #003972;
+    background-color: #222;
     border-radius: 15px;
 }
 
@@ -60,7 +61,30 @@ a.a-link {
     width: 820px;
     height: 610px;
 }
-/*  */
+
+.icons1  {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    transition: transform 0.5s;
+}
+
+.icons1 :hover {
+    color: gray;
+    transform: translateY(-5px);
+}
+
+.tx-color1 {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    transition: transform 0.5s;
+}
+
+.tx-color1 :hover {
+    color: gray;
+    transform: translateY(-5px);
+}
 
 .icons a{
     display: inline-block;
@@ -73,6 +97,13 @@ a.a-link {
     color: gray;
     transform: translateY(-5px);
 }
+
+.hw{
+    height: 400px;
+    width: auto;
+}
+
+/*  */
 
 /* 1 */
 .container1 .card1 .icon1 {
