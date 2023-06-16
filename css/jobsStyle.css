@@ -12,11 +12,14 @@ body{
     transform-origin: 0% 0%;
     font-family: "bookman";
 }
-
-.nav-color {
+.tx-color{
     color: white;
 }
-  
+
+.nav-bg-color {
+    background-color: #A7171A;
+    color: white;
+}
 .font{
     font-size: xx-large;
 }
