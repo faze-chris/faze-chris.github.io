@@ -278,6 +278,19 @@ a.a-link {
     background-size: cover;
 }
 
+/* 13 */
+.container1 .card1 .icon13 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../media/home_page/port1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 .container1 .card1 .fa {
     position: absolute;
     top: 50%;
