@@ -218,7 +218,7 @@ a.a-link {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(../media/home_page/port1.png);
+    background-image: url(../media/home_page/vtrendzz.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -260,6 +260,19 @@ a.a-link {
     width: 100%;
     height: 100%;
     background-image: url(../media/fotos/800px-Starr.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 12 */
+.container1 .card1 .icon12 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../media/home_page/inspiration.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
