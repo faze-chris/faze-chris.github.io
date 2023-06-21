@@ -103,7 +103,11 @@ a.a-link {
     width: auto;
 }
 
-/* CSS animation for the transition effect */
+.center-cards{
+    margin: auto;
+    text-align: center;
+}
+
 @keyframes fade-in {
     0% {
       opacity: 0;
@@ -113,7 +117,7 @@ a.a-link {
     }
   }
 
-  /* Apply the animation to the element */
+ 
   .fade-in {
     animation: fade-in 1s ease-in;
   }
