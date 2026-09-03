@@ -1,19 +1,19 @@
 body {
-    background-color: #222222;
+  background-color: #222222;
 }
 
 ul {
-    margin-top: 0;
-    padding: 10px;
-    color: white;
-    background-color: black;
-    text-align: left;
-    border: 1px solid white;
+  margin-top: 0;
+  padding: 10px;
+  color: white;
+  background-color: black;
+  text-align: left;
+  border: 1px solid white;
 }
 
 li {
-    display: inline;
-    margin-right: 20px;
+  display: inline;
+  margin-right: 20px;
 }
 
 .active {
@@ -22,9 +22,9 @@ li {
   padding: 10px;
 }
 @media screen and (max-width: 600px) {
-    li {
-        display: block; 
-        margin-right: 0;
-        margin-bottom: 15px; 
-    }
+  li {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
 }
