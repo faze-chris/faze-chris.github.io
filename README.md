@@ -1,14 +1,18 @@
-# Christian Lemmen | programming Portfolio
+# Christian Lemmen | Programming Portfolio
 
 Welcome to my personal coding portfolio! This repository serves as a complete archive of my software development journey, tracking my progress from my very first MBO projects at ROC Mondriaan to my current HBO-ICT studies. 
 
 ## Project Roadmap & Archive
 
-Here is a breakdown of my coding journey, categorizing the projects I've built from my first year of MBO through my transition into HBO.
+Here is a breakdown of my coding journey, categorizing the projects I've built from my first year of MBO through my transition into HBO, as well as my professional internship experience.
 
 ### HBO-ICT (Current)
 *   **ParkSense 2025 (`The-Challenge-HBO-ICT-Project-ParkSense-2025`):** A smart and sustainable solution for finding parking spaces in cities like The Hague (built with **Java**).
-*   **Team Synergy Todo List:** Full-stack collaborative project spanning both frontend and backend repositories.
+
+### Internship / Stage (Coderminds)
+*   **Team Synergy Todo List (`kucukbahadir/todolist-team-synergy` & `todolist-team-synergy-backend`):** Full-stack collaborative project spanning both frontend and backend repositories, built during my internship at Coderminds in collaboration with Bahadir.
+*   **Eduana (`kucukbahadir/eduana-frontend` & `eduana-backend`):** Educational full-stack web application worked on during my stage period.
+*   **Mini-Games:** Assorted collaborative game projects including `block-game`, `clone-game`, and `asteroidShooterGame`.
 
 ### MBO Projects (ROC Mondriaan)
 
