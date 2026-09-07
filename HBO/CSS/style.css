@@ -21,6 +21,11 @@ li {
   color: white;
   padding: 10px;
 }
+main {
+  margin: 20px;
+  padding: 20px;
+  color: white;
+}
 @media screen and (max-width: 600px) {
   li {
     display: block;
