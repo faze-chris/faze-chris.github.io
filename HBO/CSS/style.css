@@ -39,17 +39,19 @@ main {
   width:1400px; 
   height: 150px;
   margin: 10px;
-  padding: 25px;
+  padding: 200px;
   border: 5px solid white;
   background-color: green;
 
 }
 
 .div2{
+  justify-content: center;
+  text-align: center;
   width: 350px;
   height: 150px;
   margin: 10px;
-  padding: 25px;
+  padding: 200px;
   border: 5px solid white;
     background-color: black;
 
@@ -57,10 +59,12 @@ main {
 }
 
 .div3{
+  justify-content: center;
+  text-align: center;
   width: 350px;
   height: 150px;
   margin: 10px;
-  padding: 25px;
+  padding: 200px;
   border: 5px solid white;
     background-color: black;
 
@@ -68,10 +72,12 @@ main {
 }
 
 .div4{
+  justify-content: center;
+  text-align: center;
   width: 350px;
   height: 150px;
   margin: 10px;
-  padding: 25px;
+  padding: 200px;
   border: 5px solid white;
     background-color: black;
 
@@ -79,6 +85,10 @@ main {
 }
 
 
+.w3-card-4,.w3-hover-shadow:hover{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)}
+.w3-container,.w3-panel{padding:0.01em 16px}
+/* .w3-panel{margin-top:16px;margin-bottom:16px} */
+.w3-blue,.w3-hover-blue:hover{color:#fff!important;background-color:#2196F3!important}
 
 
 
