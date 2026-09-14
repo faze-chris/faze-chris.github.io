@@ -1,30 +1,40 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
   background-color: #222222;
   margin: 0;
 }
 
 ul {
+  list-style-type: none;
   margin-top: 0;
   padding: 10px;
   color: white;
-  background-color: black;
+  background-color: #a7171a;
   text-align: left;
-  border: 1px solid white;
+  border-radius: 6px;
+}
+ul :hover {
+  color: white;
+  transform: translateY(-5px);
+  transition: transform 0.5s;
+  text-decoration: none;
 }
 
 li {
-  display: inline-block; 
+  display: inline-block;
   margin-right: 20px;
 }
 
 .active {
-  background-color: #222222;
+  padding-top: 10px;
   color: white;
+  border-radius: 6px #222222;
   padding: 10px;
+}
+a {
+  text-decoration: none;
+  color: #222222;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 main {
@@ -33,46 +43,127 @@ main {
   color: white;
 }
 
-.index {
+.card-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 20px; 
+  gap: 25px;
+  justify-content: center;
+  margin-top: 20px;
 }
 
-.div1, .div2, .div3, .div4 {
-  display: flex;   
-  margin: 10px;        
-  justify-content: center; 
-  align-items: center;     
-  text-align: center;
-  min-height: 250px;       
-  border: 5px solid white;
+.card {
+  background-color: #222222;
+  width: 300px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px black;
+  display: flex;
+  flex-direction: column;
 }
 
-.div1 {
-     
-  background-color: green;
-  
-     
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
 
+.card-content {
   padding: 20px;
-}
-.div2 {
-  background-color: black;
-  padding: 10px;
-}
-
-.div2, .div3, .div4 {
-  flex: 1 1 250px;         
-  background-color: black;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  text-align: left;
 }
 
-/* Mobile Responsiveness */
+.card h2 {
+  margin-left: 0;
+  color: white;
+}
+
+.card p {
+  margin-left: 0;
+  color: lightgray;
+  line-height: 1.5;
+}
+
+.card .btn {
+  margin-top: auto;
+  display: block;
+  text-align: center;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.card .btn:hover {
+  background-color: darkred;
+}
+
+/* who am i  */
+.card-container2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card2 {
+  background-color: #222222;
+  width: 1300px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px black;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-content2 {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  text-align: left;
+}
+
+.card2 h2 {
+  margin:auto; 
+  color: white;
+}
+
+.card2 p {
+  margin-left: 0;
+  color: lightgray;
+  line-height: 1.5;
+}
+
+.fade-in {
+  animation: fade-in 1.5s;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 @media screen and (max-width: 600px) {
   li {
     display: block;
     margin-right: 0;
     margin-bottom: 15px;
+  }
+  ul {
+    text-align: center;
+    margin-top: 0;
+    margin: auto;
+  }
+  .card-container {
+    flex-direction: column;
+    align-items: center;
   }
 }
