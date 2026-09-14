@@ -1,5 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #222222;
+  margin: 0;
 }
 
 ul {
@@ -12,7 +17,7 @@ ul {
 }
 
 li {
-  display: inline;
+  display: inline-block; 
   margin-right: 20px;
 }
 
@@ -21,77 +26,49 @@ li {
   color: white;
   padding: 10px;
 }
+
 main {
   margin: 20px;
   padding: 20px;
   color: white;
 }
+
 .index {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-
-
+  gap: 20px; 
 }
-.div1{
-  justify-content: center;
+
+.div1, .div2, .div3, .div4 {
+  display: flex;   
+  margin: 10px;        
+  justify-content: center; 
+  align-items: center;     
   text-align: center;
-  width:1400px; 
-  height: 150px;
-  margin: 10px;
-  padding: 200px;
+  min-height: 250px;       
   border: 5px solid white;
+}
+
+.div1 {
+     
   background-color: green;
+  
+     
 
+  padding: 20px;
+}
+.div2 {
+  background-color: black;
+  padding: 10px;
 }
 
-.div2{
-  justify-content: center;
-  text-align: center;
-  width: 350px;
-  height: 150px;
-  margin: 10px;
-  padding: 200px;
-  border: 5px solid white;
-    background-color: black;
-
-
+.div2, .div3, .div4 {
+  flex: 1 1 250px;         
+  background-color: black;
 }
 
-.div3{
-  justify-content: center;
-  text-align: center;
-  width: 350px;
-  height: 150px;
-  margin: 10px;
-  padding: 200px;
-  border: 5px solid white;
-    background-color: black;
-
-
-}
-
-.div4{
-  justify-content: center;
-  text-align: center;
-  width: 350px;
-  height: 150px;
-  margin: 10px;
-  padding: 200px;
-  border: 5px solid white;
-    background-color: black;
-
-
-}
-
-
-.w3-card-4,.w3-hover-shadow:hover{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)}
-.w3-container,.w3-panel{padding:0.01em 16px}
-/* .w3-panel{margin-top:16px;margin-bottom:16px} */
-.w3-blue,.w3-hover-blue:hover{color:#fff!important;background-color:#2196F3!important}
-
-
-
+/* Mobile Responsiveness */
 @media screen and (max-width: 600px) {
   li {
     display: block;
