@@ -7,27 +7,70 @@
     <link rel="stylesheet" href="./CSS/style.css" />
   </head>
   <body>
-    <ul>
-      <li>
-        <a href="../index.html">Home</a>
-      </li>
-      <li>
-        <a href="./index.html">HBO</a>
-      </li>
-      <li>
-        <a href="./whoAmI.html">Who Am I</a>
-      </li>
-      <li>
-        <a href="./projectenOverzicht.html">Projects</a>
-      </li>
-      <li>
-        <a href="./blogOverzicht.html" class="active">Blog</a>
-      </li>
-      <li>
-        <a href="./semantische.html">Semantische HTML</a>
-      </li>
-    </ul>
-
+    <header>
+      <ul>
+        <li>
+          <a href="../index.html">Home</a>
+        </li>
+        <li>
+          <a href="./index.html">HBO</a>
+        </li>
+        <li>
+          <a href="./whoAmI.html">Who Am I</a>
+        </li>
+        <li>
+          <a href="./projectenOverzicht.html">Projects</a>
+        </li>
+        <li>
+          <a href="./blogOverzicht.html" class="active">Blog</a>
+        </li>
+        <li>
+          <a href="./semantische.html">Semantische HTML</a>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <section class="fade-in">
+        <!-- section card1 -->
+        <div class="card-container-about-me">
+          <div class="card-about-me">
+            <div class="card-content-about-me">
+              <center>
+                <h2>Blog</h2>
+              <p>All the news about me and my projects</p>
+              </center>
+            </div>
+          </div>
+        </div>
+        <div class="card-container-about-me">
+          <!-- First Blog Post Card -->
+          <div class="card-about-me">
+            <img
+              class="img1"
+              src="./media/biljast-iphone-x-4038013_1280.jpg"
+              alt="programming picture"
+            />
+            <div class="card-content-about-me">
+              <h2>Building My Portfolio</h2>
+              <p>
+                Welcome to my very first blog post. I decided to build this
+                portfolio for a assignment but also to have a website to have a
+                central place to showcase my journey as a software engineering
+                student and programming instructor. Creating this site from
+                scratch using HTML, CSS, and JavaScript has been a great way to
+                put my front-end skills into practice. I'll be using this space
+                to share updates on my coding projects, embedded systems
+                experiments, and everything else I learn along the way.
+              </p>
+              <a href="https://www.linkedin.com/in/christian-lemmen-482605334/recent-activity/all/" class="btn">Read More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023-2026 C.J.L.G. Lemmen, Inc. All rights reserved.</p>
+    </footer>
     <script src="./JS/main.js"></script>
   </body>
 </html>
