@@ -4,30 +4,101 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>blogOverzicht</title>
-<link rel="stylesheet" href="./CSS/style.css" />  </head>
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
   <body>
+    <header>
       <ul>
-      <li>
-        <a href="../index.html">Home</a>
-      </li>
-      <li>
-        <a href="./index.html">HBO</a>
-      </li>
-      <li>
-        <a href="./whoAmI.html" >Who Am I</a>
-      </li>
-      <li>
-        <a href="./projectenOverzicht.html">Projects</a>
-      </li>
-      <li>
-        <a href="./blogOverzicht.html"class="active">Blog</a>
-      </li>
-       </li>
         <li>
-        <a href="./semantische.html">Semantische HTML</a>
-      </li>
-    </ul>
-
+          <a href="../index.html">Home</a>
+        </li>
+        <li>
+          <a href="./index.html">HBO</a>
+        </li>
+        <li>
+          <a href="./whoAmI.html">Who Am I</a>
+        </li>
+        <li>
+          <a href="./projectenOverzicht.html">Projects</a>
+        </li>
+        <li>
+          <a href="./blogOverzicht.html" class="active">Blog</a>
+        </li>
+        <li>
+          <a href="./semantische.html">Semantische HTML</a>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <section class="fade-in">
+        <!-- section card1 -->
+        <div class="card-container-about-me">
+          <div class="card-about-me">
+            <div class="card-content-about-me">
+              <center>
+                <h2>Blog</h2>
+                <p>All the news about me and my projects</p>
+              </center>
+            </div>
+          </div>
+        </div>
+        <!-- 1 Blog  Card -->
+        <div class="card-container-about-me">
+          <div class="card-about-me">
+            <img
+              class="img1"
+              src="./media/biljast-iphone-x-4038013_1280.jpg"
+              alt="programming picture"
+            />
+            <div class="card-content-about-me">
+              <h2>Building My Portfolio part-2</h2>
+              <p>
+                Now that my first assignment is finished, my next goal is to build an 
+                API that automatically connects this blog page to my LinkedIn. That way, 
+                whenever I publish a post on LinkedIn, it will automatically generate a 
+                new post right here. This a to-do for later.
+              </p>
+              <a
+                href="https://www.linkedin.com/in/christian-lemmen-482605334/recent-activity/all/"
+                class="btn"
+                >Read More</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- 2 Blog  Card  -->
+        <div class="card-container-about-me">
+          <div class="card-about-me">
+            <img
+              class="img1"
+              src="./media/biljast-iphone-x-4038013_1280.jpg"
+              alt="programming picture"
+            />
+            <div class="card-content-about-me">
+              <h2>Building My Portfolio part-1</h2>
+              <p>
+                Welcome to my very first blog post. I decided to build this
+                portfolio for a assignment but also to have a website to have a
+                central place to showcase my journey as a software engineering
+                student and programming instructor. Creating this site from
+                scratch using HTML, CSS, and JavaScript has been a great way to
+                put my front-end skills into practice. I'll be using this space
+                to share updates on my coding projects, embedded systems
+                experiments, and everything else I learn along the way.
+              </p>
+              <a
+                href="https://www.linkedin.com/in/christian-lemmen-482605334/recent-activity/all/"
+                class="btn"
+                >Read More</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023-2026 C.J.L.G. Lemmen, Inc. All rights reserved.</p>
+    </footer>
     <script src="./JS/main.js"></script>
   </body>
 </html>
