@@ -255,3 +255,23 @@ footer {
     padding-top: 210px; 
   }
 }
+
+/* api-postman assignemnt */
+      .error-message {
+        color: red;
+        font-size: 0.9em;
+        display: block;
+        margin-bottom: 10px;
+      }
+      .success-message {
+        color: green;
+        font-weight: bold;
+        margin-top: 10px;
+      }
+      .form-group {
+        margin-bottom: 15px;
+      }
+      input[aria-invalid="true"],
+      textarea[aria-invalid="true"] {
+        border: 2px solid red;
+      }
