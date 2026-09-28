@@ -75,3 +75,44 @@ function handleClick2() {
 
 btn1.addEventListener("click", handleClick1);
 btn2.addEventListener("click", handleClick2);
+
+// postman assignment
+
+const form = document.querySelector("#contact-form");
+
+const velden = [
+    { id: "naam", boodschap: "fill 2 charackters in." },
+    { id: "email", boodschap: "fill a valid e-mail in." },
+    { id: "bericht", boodschap: "write a message please." },
+];
+
+function valideerVeld(veld) {
+    const input = document.querySelector(`#${veld.id}`);
+    const foutmelding = document.querySelector(`#${veld.id}-error`);
+    
+    const geldig = input.checkValidity();
+    
+    input.setAttribute("aria-invalid", String(!geldig));
+    
+    foutmelding.textContent = geldig ? "" : veld.boodschap;
+    
+    return geldig;
+}
+
+form.addEventListener("submit", (event) => {
+    event.preventDefault();
+    
+    const alleGeldig = velden.map(valideerVeld).every(Boolean);
+    const status = document.querySelector("#form-status");
+    
+    if (!alleGeldig) {
+        status.textContent = "wrong forms";
+        status.style.color = "red";
+        return; 
+    }
+    
+    status.textContent = "message sent thank you!";
+    status.style.color = "green";
+    
+    form.reset();
+});
