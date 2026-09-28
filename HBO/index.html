@@ -31,12 +31,24 @@
       </ul>
     </header>
     <main>
-      <article>
-        <div class="fade-in">
+      <article class="fade-in">
+        <div>
           <h1>HBO Portfolio</h1>
           <p>Welcome to my HBO portfolio!</p>
         </div>
       </article>
+      <section class="fade-in">
+        <div style="text-align: center; margin: 40px 0">
+          <h3>External Data (Fetch API)</h3>
+          <button id="fetch-data-btn" class="btn">Fetch Data</button>
+          <p
+            id="fetch-status"
+            aria-live="polite"
+            style="color: blue; font-size: 14px; margin-top: 10px"
+          ></p>
+          <p id="fetch-result" style="font-weight: bold"></p>
+        </div>
+      </section>
     </main>
     <footer>
       <p>&copy; 2023-2026 C.J.L.G. Lemmen, Inc. All rights reserved.</p>
