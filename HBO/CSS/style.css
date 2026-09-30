@@ -5,7 +5,6 @@ body {
 }
 
 ul {
-  
   list-style-type: none;
   margin-top: 0;
   padding: 10px;
@@ -15,10 +14,10 @@ ul {
   border-radius: 6px;
   position: fixed;
   top: 0;
-  
   width: 100%;
   z-index: 1000;
 }
+
 ul :hover {
   color: white;
   transform: translateY(-5px);
@@ -37,9 +36,10 @@ li {
   border-radius: 6px #222222;
   padding: 10px;
 }
+
 a {
   text-decoration: none;
-  color: #222222;
+  color: grey;
   font-size: 18px;
   font-weight: bold;
 }
@@ -49,6 +49,63 @@ main {
   padding: 20px;
   color: white;
 }
+
+/* --- Dropdown  --- */
+.btn {
+
+  background-color: red;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: darkred;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: red;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.dropdown-content button {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  border: none;
+  background: none;
+  text-align: left;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.dropdown-content button:hover {
+  background-color: darkred;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 
 .card-container {
   display: flex;
@@ -109,7 +166,6 @@ main {
   background-color: darkred;
 }
 
-
 /* who am i  */
 .card-container2 {
   display: flex;
@@ -138,7 +194,7 @@ main {
 }
 
 .card2 h2 {
-  margin:auto; 
+  margin: auto;
   color: white;
 }
 
@@ -148,10 +204,7 @@ main {
   line-height: 1.5;
 }
 
-
-
-/* who am i  */
-
+/* about me  */
 .card-container-about-me {
   display: flex;
   flex-wrap: wrap;
@@ -173,12 +226,13 @@ main {
 .card-about-me .img1 {
   width: 100%;
   height: 300px;
-  object-fit:cover;
+  object-fit: cover;
 }
+
 .card-about-me .img2 {
   width: 100%;
   height: 300px;
-  object-fit:scale-down;
+  object-fit: scale-down;
 }
 
 .card-content-about-me {
@@ -216,8 +270,7 @@ main {
   background-color: darkred;
 }
 
-/*  */
-
+/* footer & animaties  */
 footer {
   position: fixed;
   bottom: 0;
@@ -228,6 +281,7 @@ footer {
 .fade-in {
   animation: fade-in 1.5s;
 }
+
 @keyframes fade-in {
   from {
     opacity: 0;
@@ -236,6 +290,7 @@ footer {
     opacity: 1;
   }
 }
+
 @media screen and (max-width: 613px) {
   li {
     display: block;
@@ -252,26 +307,29 @@ footer {
     align-items: center;
   }
   main {
-    padding-top: 210px; 
+    padding-top: 210px;
   }
 }
 
-/* api-postman assignemnt */
-      .error-message {
-        color: red;
-        font-size: 0.9em;
-        display: block;
-        margin-bottom: 10px;
-      }
-      .success-message {
-        color: green;
-        font-weight: bold;
-        margin-top: 10px;
-      }
-      .form-group {
-        margin-bottom: 15px;
-      }
-      input[aria-invalid="true"],
-      textarea[aria-invalid="true"] {
-        border: 2px solid red;
-      }
+/* api-postman assignment */
+.error-message {
+  color: red;
+  font-size: 0.9em;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.success-message {
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+input[aria-invalid="true"],
+textarea[aria-invalid="true"] {
+  border: 2px solid red;
+}
