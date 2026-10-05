@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Semantische HTML</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="./CSS/style.css" />
   </head>
   <body>
@@ -25,84 +25,93 @@
           <a href="./blogOverzicht.html">Blog</a>
         </li>
         <li>
-          <a href="./semantische.html" class="active">Semantische HTML</a>
+          <a href="./semantische.html" class="active">Contact</a>
         </li>
       </ul>
     </header>
-    <main>
-      <article>
-        <h2>Semantische HTML</h2>
-        <p>
-          Semantische HTML is the use of HTML markup to reinforce the meaning of
-          information in web pages and applications. It provides a clearer
-          structure for both developers and browsers to understand the content
-          and its purpose.
-        </p>
-      </article>
-      <video width="320" height="240" controls>
-        <source src="./media/1.mp4" type="video/mp4" />
-        <source src="./media/2.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-      <br />
-      <br />
-      <h1 class="h1"></h1>
-      <p class="p"></p>
-      <div id="output"></div>
-      <button id="myButton1">sort by price</button>
-      <button id="myButton2">sort by popularity</button>
-      <section id="contact-sectie">
-        <h2>contact me</h2>
-        <div id="form-status" aria-live="polite" class="success-message"></div>
-        <form id="contact-form" novalidate>
-          <div class="form-group">
-            <label for="naam">name:</label>
-            <input
-              type="text"
-              id="naam"
-              name="naam"
-              required
-              minlength="2"
-              aria-describedby="naam-error"
-            />
-            <span
-              id="naam-error"
-              class="error-message"
-              aria-live="polite"
-            ></span>
+    <main class="fade-in">
+      <!-- section card -->
+      <div class="card-container-about-me">
+        <div class="card-about-me">
+          <div class="card-content-about-me">
+            <center>
+              <h2>contact</h2>
+              <p>Get in touch with me!</p>
+            </center>
           </div>
-          <div class="form-group">
-            <label for="email">E-mail:</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              required
-              aria-describedby="email-error"
-            />
-            <span
-              id="email-error"
-              class="error-message"
-              aria-live="polite"
-            ></span>
+        </div>
+      </div>
+      <!-- 1 Contact  Card -->
+      <div class="card-container-about-me">
+        <div class="card-about-me">
+          <img
+            class="img1"
+            src="./media/biljast-iphone-x-4038013_1280.jpg"
+            alt="programming picture"
+          />
+          <div class="card-content-about-me">
+            <center>
+              <section id="contact-sectie">
+                <h2>contact me</h2>
+                <div
+                  id="form-status"
+                  aria-live="polite"
+                  class="success-message"
+                ></div>
+                <form id="contact-form" novalidate>
+                  <div class="form-group">
+                    <label for="naam">name:</label>
+                    <input
+                      type="text"
+                      id="naam"
+                      name="naam"
+                      required
+                      minlength="2"
+                      aria-describedby="naam-error"
+                    />
+                    <span
+                      id="naam-error"
+                      class="error-message"
+                      aria-live="polite"
+                    ></span>
+                  </div>
+                  <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      required
+                      aria-describedby="email-error"
+                    />
+                    <span
+                      id="email-error"
+                      class="error-message"
+                      aria-live="polite"
+                    ></span>
+                  </div>
+                  <div class="form-group">
+                    <label for="bericht">message:</label>
+                    <textarea
+                      id="bericht"
+                      name="bericht"
+                      required
+                      minlength="10"
+                      aria-describedby="bericht-error"
+                    ></textarea>
+                    <span
+                      id="bericht-error"
+                      class="error-message"
+                      aria-live="polite"
+                    ></span>
+                  </div>
+                  <button class="btn" type="submit">sent</button>
+                </form>
+              </section>
+            </center>
           </div>
-          <div class="form-group">
-            <label for="bericht">message:</label>
-            <textarea
-              id="bericht"
-              name="bericht"
-              required
-              minlength="10"
-              aria-describedby="bericht-error"
-            ></textarea>
-            <span
-              id="bericht-error"
-              class="error-message"
-              aria-live="polite"
-            ></span>
-          </div>
-          <button type="submit">sent</button>
-        </form>
+        </div>
+      </div>
     </main>
     <footer>
       <p>&copy; 2023-2026 C.J.L.G. Lemmen, Inc. All rights reserved.</p>
